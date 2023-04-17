@@ -123,6 +123,10 @@ label {
   .form {
     background: none;
   }
+  
+  .main-input{
+    width: 80%
+  }
 
   #wrapper {
     background-color: #f7cd2e;
