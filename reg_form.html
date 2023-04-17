@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="src/reg_form.css" />
+  </head>
+  <body>
+    <form class="form">
+      <div class="name">
+        <label for="">Name:</label>
+        <input type="text" class="main-input" name="name" id="name" required />
+        <span id="nameError" class="error"></span>
+      </div>
+
+      <div class="email">
+        <label for="">Email:</label>
+        <input
+          type="email"
+          class="main-input"
+          name="email"
+          id="email"
+          required
+        />
+        <span id="emailError" class="error"></span>
+      </div>
+
+      <div class="phone">
+        <label for="">Phone:</label>
+        <input
+          type="number"
+          class="main-input"
+          name="phone"
+          id="phone"
+          required
+        />
+        <span id="phoneError" class="error"></span>
+      </div>
+
+      <div class="password">
+        <label for="">Password:</label>
+        <input
+          type="password"
+          class="main-input"
+          name="password"
+          id="password"
+          required
+        />
+        <span id="pwdError" class="error"></span>
+      </div>
+
+      <div class="confirm_password">
+        <label for="">Confirm Password:</label>
+        <input
+          type="password"
+          class="main-input"
+          name="confirm_password"
+          id="confirm_password"
+          required
+        />
+        <span id="confirmPwdError" class="error"></span>
+      </div>
+
+      <div class="date_of_birth">
+        <label for="">Date of Birth:</label>
+        <input
+          type="date"
+          class="main-input"
+          name="date_of_birth"
+          id="dob"
+          required
+        />
+        <span id="dobError" class="error"></span>
+      </div>
+
+      <div class="gender">
+        <label for=""
+          >Gender: <span id="genderError" class="error"></span
+        ></label>
+        <input type="radio" value="Male" name="gender" required /><span
+          class="choices"
+          >Male</span
+        >
+        <input type="radio" value="Female" name="gender" /><span class="choices"
+          >Female</span
+        >
+        <input type="radio" value="Other" name="gender" /><span class="choices"
+          >Other</span
+        >
+      </div>
+
+      <div class="interests">
+        <label for=""
+          >Interests: <span id="interestError" class="error"></span
+        ></label>
+        <input type="checkbox" name="interests" value="Music" required /><span
+          class="choices"
+          >Music</span
+        >
+        <input type="checkbox" name="interests" value="Sports" /><span
+          class="choices"
+          >Sports</span
+        >
+        <input type="checkbox" name="interests" value="Reading" /><span
+          class="choices"
+          >Reading</span
+        >
+      </div>
+
+      <div class="buttons">
+        <input type="reset" value="Reset" class="btn btn-1" />
+        <input type="submit" value="Submit" class="btn btn-2" />
+      </div>
+    </form>
+
+    <script src="src/reg_form.js"></script>
+  </body>
+</html>

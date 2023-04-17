@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: url(../assets/bgimage.jpeg);
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  margin-bottom: 32px;
+  font-size: 25px;
+}
+
+.form {
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 1rem 25px;
+  width: 425px;
+  margin: 10px auto;
+  border-radius: 10px;
+}
+
+label {
+  color: #fff;
+  font-weight: 800;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: block;
+  margin-top: 20px;
+}
+
+.main-input {
+  font-size: 20px;
+  margin-top: 10px;
+  width: 100%;
+  border: none;
+  padding: 5px;
+}
+
+.choices {
+  color: #fff;
+  margin-right: 1rem;
+  margin-left: 5px;
+}
+
+.interests label,
+.gender label {
+  margin: 1rem 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 1rem;
+  cursor: pointer;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.btn-1 {
+  background-color: #e21717;
+}
+
+.btn-2 {
+  background-color: #1faa59;
+}
+
+.error {
+  color: #e21717;
+  font-weight: 600;
+}
+
+/* CSS affecting JS Code */
+
+#wrapper {
+  background-color: rgba(128, 128, 128, 0.2);
+  width: 425px;
+  padding: 20px;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 10%;
+}
+
+#wrapper:hover {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  cursor: pointer;
+}
+
+#wrapper h3 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#wrapper p {
+  display: block;
+  margin: 1rem auto;
+}
+
+.reg-name {
+  background-color: #b4161b;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.weight {
+  font-weight: 800;
+  color: #6a1b4d;
+  font-family: cursive;
+}
+
+/* media queries */
+@media (max-width: 425px) {
+  .form {
+    background: none;
+  }
+
+  #wrapper {
+    background-color: #f7cd2e;
+  }
+}
