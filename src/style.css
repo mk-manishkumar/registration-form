@@ -133,5 +133,6 @@ label {
   
   #wrapper {
     background-color: #f7cd2e;
+    width: auto;
   }
 }
