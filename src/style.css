@@ -119,20 +119,24 @@ label {
 }
 
 /* media queries */
-
 @media (max-width: 425px) {
   .form {
     background: none;
     width: auto;
   }
 
-  .buttons{
+  .buttons {
     justify-content: flex-start;
     margin-top: 2rem;
   }
-  
+
   #wrapper {
-    background-color: #f7cd2e;
+    background-color: rgba(128, 128, 128, 0.1);
+    box-shadow: none;
     width: auto;
+  }
+
+  #wrapper h3 {
+    text-align: left;
   }
 }
