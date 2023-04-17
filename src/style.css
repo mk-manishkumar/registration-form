@@ -119,15 +119,18 @@ label {
 }
 
 /* media queries */
+
 @media (max-width: 425px) {
   .form {
     background: none;
-  }
-  
-  .main-input{
-    width: 80%
+    width: auto;
   }
 
+  .buttons{
+    justify-content: flex-start;
+    margin-top: 2rem;
+  }
+  
   #wrapper {
     background-color: #f7cd2e;
   }
